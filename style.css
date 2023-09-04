@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(231, 229, 229);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 16px 20px;
+    background-color: white;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.navbar > .logo >div , .navbar >.menu > a {
+    margin-right: 20px;
+    color: red;
+}
+.more-travel > a{
+    color: red;
+}
+.container{
+    /* background-color: aqua; */
+    width: 80%;
+    padding-left: 60px;
+}
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+.inputbox{
+    width: 300px;
+    height: 40px;
+    margin-right: 8px;
+}
+.icon{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    padding: 12px;
+    font-size: 20px;
+}
+.middle-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.line{
+    width: 22%;
+    margin-left: 20px;
+}
+.select-box{
+    height: 40px;
+}
+.left-side{
+    padding:20px;
+    /* border: 1px solid black; */
+    width: 25%;
+}
+.main-container{
+    display: flex;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.heading{
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.hrr{
+    margin-top: 20px;
+    width: 250px;
+    margin-bottom: 30px;
+}
+.subheading{
+    margin-bottom: 30px;
+
+}
+.ratings{
+    margin-bottom: 20px;
+}
+
+button{
+    width: 50px;
+    border-radius: 6px;
+    border: 1px solid rgb(136, 131, 131);
+    background-color: transparent;
+    padding: 8px;
+    margin-top: 6px;
+}
+.prop{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.card{
+    display: flex;
+    width: 100%;
+    background-color: white;
+    height: 200px;
+}
+.img-desc{
+    text-align: justify;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.img-desc p{
+    font-size: 12px;
+}
