@@ -4,7 +4,6 @@ const month = current.getMonth();
 const year = current.getFullYear();
 const daysList = document.querySelectorAll(".days");
 
-// ...................................................................................................
 function dateOfFirstDay(month, year) {
 
   daysList.forEach((ele) => {
@@ -14,7 +13,7 @@ function dateOfFirstDay(month, year) {
   const day = total.getDay();
   fillDates(day, month, year); 
 }
-//......................................
+
 function fillDates(day, month, year) {
    
   if (
@@ -62,7 +61,7 @@ function fillDates(day, month, year) {
   highlightColor(date);
 }
 dateOfFirstDay(month, year);
-// ..........................................................................................................
+
 function highlightColor(date) {
     daysList.forEach(ele=>ele.classList.remove("active"))
   daysList.forEach((ele) => {
@@ -72,7 +71,7 @@ function highlightColor(date) {
   });
 }
 
-// ..........................................................................................................
+
 function fillingYears() {
   const yearList = document.querySelector(".select-year");
   for (let i = 1900; i < 2100; i++) {
